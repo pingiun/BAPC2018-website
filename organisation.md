@@ -8,8 +8,6 @@ menu: main
 
 #### Organisation
 
-![Photo of organisation](assets/img/committee.jpg)
-
 The BAPC of 2019 is organized by the committee consisting of:
 
 * Jelle Besseling
@@ -29,7 +27,7 @@ The committee is supported by the following people:
 
 #### Jury
 
-The following jury has been constructed:
+The following jury has been formed:
 
 * Ragnar Groot Koerkamp
 * Harry Smit
