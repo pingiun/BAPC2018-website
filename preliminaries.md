@@ -36,10 +36,9 @@ Below, a map is shown with all preliminary rounds registered.
 
 In case you also want to organize a preliminary round, please let us know via [info@bapc.eu](mailto:info@bapc.eu). Make sure to mention
 
-- name of institution
-- location of your preliminary round
-- organizational contact person: name, email address and optionally phone number. The email address will also be used for Slack.
-- local jury member(s): name, email address and optionally phone number. The email address will also be used for Slack.
+- name of institution. For study association Thalia for example, this is the Radboud University Nijmegen.
+- location of your preliminary round. This will be the pinpoint on the map above.
+- organizational contact person(s): name, email address and optionally phone number. We will approach this person(s) for any organizational information, such as for distribution of problem sets. The main jury will also use this to contact any possible local jury
 - the preliminary time schedule (start time of test session and preliminaries). 
 - optionally: specific name of your preliminary (such as EAPC: Eindhoven Algorithm Programming Contest)
 - optionally: URL to event-specific page
