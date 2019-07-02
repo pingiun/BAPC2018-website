@@ -1,172 +1,219 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <head>
+    <title>
+      {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
     <script src="/assets/js/jquery-3.3.1.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-icon.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/assets/favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicons/favicon-16x16.png"
+    />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta
+      name="msapplication-config"
+      content="/assets/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
     <style>
-        .navbar {
-            margin-bottom: 0;
-        }
+      .navbar {
+        margin-bottom: 0;
+      }
 
-        .jumbotron {
-            margin-bottom: 0;
-        }
+      .jumbotron {
+        margin-bottom: 0;
+      }
 
-        html {
-            overflow-y: scroll;
-            max-width: 100%;
-            overflow-x: hidden;
-        }
+      html {
+        overflow-y: scroll;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
 
-        .orga {
-            width: 50%;
-            padding-bottom: 20px;
-        }
+      .orga {
+        width: 50%;
+        padding-bottom: 20px;
+      }
 
-        .orgaimg {
-            max-height: 100px;
-            max-width: 80%;
-            margin-top: 20px;
-        }
+      .orgaimg {
+        max-height: 100px;
+        max-width: 80%;
+        margin-top: 20px;
+      }
 
-        .faculty {
-            margin: 40px 0;
-            max-height: 60px;
-            max-width: 60%;
-        }
+      .faculty {
+        margin: 40px 0;
+        max-height: 60px;
+        max-width: 60%;
+      }
 
-        a.sponsor {
-            display: inline-block;
-            width: 33%;
-            height: 60px;
-            margin-bottom: 30px;
-        }
+      a.sponsor {
+        display: inline-block;
+        width: 33%;
+        height: 60px;
+        margin-bottom: 30px;
+      }
 
-        a.sponsor img {
-            max-height: 60px;
-            max-width: 100%;
-            margin-right: 50px;
-        }
+      a.sponsor img {
+        max-height: 60px;
+        max-width: 100%;
+        margin-right: 50px;
+      }
 
-        a.mainsponsor img {
-            max-width: 60%;
-        }
+      a.mainsponsor img {
+        max-width: 60%;
+      }
 
-        .logos {
-            text-align: center;
-        }
+      a.smallsponsor img {
+        max-width: 20%;
+      }
 
-        .flex {
-            display: flex;
-        }
+      .logos {
+        text-align: center;
+      }
 
-        .looking {
-            font-size: 1.1em;
-        }
+      .flex {
+        display: flex;
+      }
 
-        #bapclogo {
-            max-width: 50%;
-            max-height: 250px;
-        }
+      .looking {
+        font-size: 1.1em;
+      }
 
-        #bapclogo_div {
-            padding: 1em 1em;
-        }
+      #bapclogo {
+        max-width: 50%;
+        max-height: 250px;
+      }
 
-        iframe {
-            width: 100%;
-            padding: 0;
-            margin: 0;
-        }
+      #bapclogo_div {
+        padding: 1em 1em;
+      }
 
-        .table-scoreboard {
-            word-break: break-word;
-            font-size: 0.8em;
-        }
+      iframe {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
 
-        .table-scoreboard td {
-            min-width: 55px;
-        }
+      .table-scoreboard {
+        word-break: break-word;
+        font-size: 0.8em;
+      }
 
-        .table-scoreboard td:nth-child(2), .table-scoreboard td:nth-child(3) {
-            min-width: 100px;
-        }
+      .table-scoreboard td {
+        min-width: 55px;
+      }
 
-        .topinfo {
-            text-align: center;
-            font-size: 1.3em;
-        }
+      .table-scoreboard td:nth-child(2),
+      .table-scoreboard td:nth-child(3) {
+        min-width: 100px;
+      }
+
+      .topinfo {
+        text-align: center;
+        font-size: 1.3em;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div class="jumbotron text-center" id="bapclogo_div">
+      <img src="assets/img/bapc-logo.png" alt="logo" id="bapclogo" />
+    </div>
 
-<div class="jumbotron text-center" id="bapclogo_div">
-    <img src="assets/img/bapc-logo.png" alt="logo" id="bapclogo">
-</div>
-
-<nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#menu"
+        aria-controls="menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse justify-content-center" id="menu">
-
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="menu">
         <ul class="navbar-nav">
-            {% assign mypages = site.pages | sort: "order" %}
-            {% for node in mypages %}
-                {% if node.type == 'menu' %}
-                    <li class="nav-item dropdown">
-                        <a class="nav-link {% if page.menu == node.id %}active{% endif %} dropdown-toggle" href="#" id="navbarDropdown{{node.id}}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            {{node.title}}
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown{{node.id}}">
-                            {% for node2 in mypages %}
-                                {% if node2.menu == node.id %}
-                                    <a class="dropdown-item {% if page.url == node2.url %}active{% endif %}"
-                                                href="{{ node2.url | absolute_url }}">{{ node2.menutitle }}</a>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    </li>
-                {% else %}
-                    {% if node.menu == 'main' %}
-                        <li class="nav-item"><a class="nav-link {% if page.url == node.url %}active{% endif %}"
-                                                href="{{ node.url | absolute_url }}">{{ node.menutitle }}</a></li>
-                    {% endif %}
-                {% endif %}
-            {% endfor %}
+          {% assign mypages = site.pages | sort: "order" %} {% for node in
+          mypages %} {% if node.type == 'menu' %}
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link {% if page.menu == node.id %}active{% endif %} dropdown-toggle"
+              href="#"
+              id="navbarDropdown{{ node.id }}"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              {{ node.title }}
+            </a>
+            <div
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdown{{ node.id }}"
+            >
+              {% for node2 in mypages %} {% if node2.menu == node.id %}
+              <a
+                class="dropdown-item {% if page.url == node2.url %}active{% endif %}"
+                href="{{ node2.url | absolute_url }}"
+                >{{ node2.menutitle }}</a
+              >
+              {% endif %} {% endfor %}
+            </div>
+          </li>
+          {% else %} {% if node.menu == 'main' %}
+          <li class="nav-item">
+            <a
+              class="nav-link {% if page.url == node.url %}active{% endif %}"
+              href="{{ node.url | absolute_url }}"
+              >{{ node.menutitle }}</a
+            >
+          </li>
+          {% endif %} {% endif %} {% endfor %}
         </ul>
+      </div>
+    </nav>
 
-    </div>
-</nav>
-
-<br>
-<div class="container">
-    <div class="row">
+    <br />
+    <div class="container">
+      <div class="row">
         <div class="col-sm-12">
-            {% if page.title %}
-            <h2>{{ page.title }}</h2>
-            {% endif %}
-            {{ content }}
+          {% if page.title %}
+          <h2>{{ page.title }}</h2>
+          {% endif %}
+          {{ content }}
         </div>
-    </div>
-    <hr/>
-    {% if site.data.sponsors %}
-    <div class="row">
+      </div>
+      <hr />
+      {% if site.data.sponsors %}
+      <!-- <div class="row">
         <div class="col-sm-12">
             <h3>Main sponsor</h3>
             <div class="logos">
@@ -178,42 +225,65 @@
             </div>
         </div>
     </div>
-    <hr/>
-    <div class="row">
+    <hr/> -->
+      <div class="row">
         <div class="col-sm-12">
-            
-            <h3>Event sponsors</h3>
-            <div class="logos">
-                {% for sponsor in site.data.sponsors %}
-                    {% if sponsor.type != "main" %}
-                        <a href="{{sponsor.link}}" class="sponsor"><img src="{{sponsor.image}}" alt="{{sponsor.name}}"></a>
-                    {% endif %}
-                {% endfor %}
-            </div>
+          <h3>Event sponsors</h3>
+          <div class="logos">
+            {% for sponsor in site.data.sponsors %} {% if sponsor.type != "main"
+            and sponsor.type != "small" %}
+            <a href="{{ sponsor.link }}" class="sponsor"
+              ><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"
+            /></a>
+            {% endif %} {% endfor %}
+          </div>
         </div>
-    </div>
-    {% else %}
-    <a class="looking" href='{{ "contact.html" | absolute_url }}'>We are currently looking for sponsors!</a>
-    {% endif %}
-    <hr/>
-    <div class="row">
+      </div>
+      <div class="row">
         <div class="col-sm-12">
-            <h3>Organized by</h3>
-            <div class="logos flex">
-                {% for orga in site.data.organizers %}
-                    <div class="orga">
-                        <a href="{{orga.link}}"><img src="{{orga.image}}" alt="{{orga.name}}" class="orgaimg"></a>
-                        {% if orga.faculty %}
-                            <br/>
-                            <a href="{{orga.faculty.link}}"><img src="{{orga.faculty.image}}" alt="{{orga.faculty.name}}" class="faculty"></a>
-                        {% endif %}
-                    </div>
-
-                {% endfor %}
-            </div>
+          <div class="logos">
+            {% for sponsor in site.data.sponsors %} {% if sponsor.type ==
+            "small" %}
+            <a href="{{ sponsor.link }}" class="smallsponsor"
+              ><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"
+            /></a>
+            {% endif %} {% endfor %}
+          </div>
         </div>
-    </div>
-</div>
+      </div>
+      {% else %}
+      <a class="looking" href="{{ 'contact.html' | absolute_url }}"
+        >We are currently looking for sponsors!</a
+      >
+      {% endif %}
+      <hr />
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>Organized by</h3>
+          <div class="logos flex">
+            {% for orga in site.data.organizers %}
+            <div class="orga">
+              <a href="{{ orga.link }}"
+                ><img
+                  src="{{ orga.image }}"
+                  alt="{{ orga.name }}"
+                  class="orgaimg"
+              /></a>
+              {% if orga.faculty %}
+              <br />
+              <a href="{{ orga.faculty.link }}"
+                ><img
+                  src="{{ orga.faculty.image }}"
+                  alt="{{ orga.faculty.name }}"
+                  class="faculty"
+              /></a>
+              {% endif %}
+            </div>
 
-</body>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

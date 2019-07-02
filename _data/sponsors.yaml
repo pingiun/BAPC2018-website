@@ -3,3 +3,7 @@
 #  image: assets/img/sponsor.img
 #  type: main/presenter/remove if N/A
 #  link: https://example.com
+- name: ASML
+  image: assets/img/sponsors/asml.png
+  type: small
+  link: https://www.asml.com/en
