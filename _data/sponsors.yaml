@@ -7,3 +7,9 @@
   image: assets/img/asml.png
   type: small
   link: https://www.asml.com/en
+  height: 60
+- name: Transtrend
+  image: assets/img/transtrend.png
+  type: small
+  height: 80
+  link: https://www.transtrend.com/nl/carri%C3%A8re/
