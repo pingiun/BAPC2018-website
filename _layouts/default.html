@@ -189,7 +189,12 @@
                 href="{{ node2.url | absolute_url }}"
                 >{{ node2.menutitle }}</a
               >
-              {% endif %} {% endfor %}
+              {% endif %} {% endfor %} {% if node.id == 'sponsors' %} {% for
+              sponsor in site.data.sponsors %} {% unless sponsor.page %}
+              <a class="dropdown-item" href="{{ sponsor.link }}">{{
+                sponsor.name
+              }}</a>
+              {% endunless %} {% endfor %} {% endif %}
             </div>
           </li>
           {% else %} {% if node.menu == 'main' %}

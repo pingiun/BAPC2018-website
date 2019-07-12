@@ -2,7 +2,7 @@
 layout: default
 title: Registration
 menutitle: Registration
-order: 10
+order: 5
 menu: contest
 ---
 

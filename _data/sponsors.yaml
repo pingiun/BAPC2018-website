@@ -4,11 +4,13 @@
 #  type: main/presenter/remove if N/A
 #  link: https://example.com
 - name: ASML
+  page: yes
   image: assets/img/asml.png
   type: small
-  link: https://www.asml.com/en
+  link: https://www.workingatasml.com/
   height: 60
 - name: Transtrend
+  page: no
   image: assets/img/transtrend.png
   type: small
   height: 80

@@ -2,7 +2,7 @@
 layout: default
 title: Contact information
 menutitle: Contact
-order: 11
+order: 7
 menu: main
 ---
 
