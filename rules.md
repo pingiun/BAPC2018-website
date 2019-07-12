@@ -6,7 +6,7 @@ order: 6
 menu: contest
 ---
 
-_Last updated: 5 July 2019_
+_Last updated: 12 July 2019_
 
 #### General Rules
 
@@ -74,8 +74,8 @@ A business team:
 ##### System
 
 * Each team will use a single workstation, consisting of a table for the team members and one computer. The organisation is responsible for determining that teams have reasonably equivalent computing resources.
-* A solution for a problem has to be written in C, C++(14), Python or Java (unless the problem statement explicitly states otherwise). Business teams can request other submission languages, on which the organisation will decide whether it will be made available for submission.
-* The jury decides per programming language which libraries and function calls are allowed to be used in the solutions. This will be published on the website before the contest starts.
+* A solution for a problem has to be written in C99, C++ (version 14 or later will be available), Python (versions 2 and 3 will be available using pypy) or Java (version 11 or later), unless the problem statement explicitly states otherwise. Business teams can request other submission languages, on which the organisation will decide whether it will be made available for submission.
+* For every solution, only the standard library of the chosen language may be used, i.e. no other function calls can be made.
 * All prints made by the teams will be brought by a runner. Participants are not allowed near the printers.
 * A team is allowed to bring up to 25 A4-sized pages, printed one-sided or up to 12.5 A4-sized pages, printed two-sided, of documentation. Text and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 1/2 meter. Each team member is allowed one identical copy.
 * A team is allowed to bring a dictionary from English to their native language.
