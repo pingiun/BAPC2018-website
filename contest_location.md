@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Location
-menutitle: Location
-order: 8
-menu: main
+title: Contest and parking
+menutitle: Contest and parking
+order: 1
+menu: location
 ---
 
 #### Team reception

@@ -2,7 +2,7 @@
 layout: default
 title: Scoreboard
 menutitle: Results
-order: 7
+order: 4
 menu: main
 ---
 

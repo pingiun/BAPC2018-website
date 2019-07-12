@@ -2,7 +2,7 @@
 layout: default
 title: Organisation
 menutitle: Organisation
-order: 10
+order: 6
 menu: main
 ---
 
