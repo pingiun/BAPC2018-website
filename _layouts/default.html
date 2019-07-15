@@ -99,6 +99,7 @@
       }
 
       .logos {
+        flex-wrap: wrap;
         text-align: center;
       }
 
@@ -238,7 +239,7 @@
       <div class="row">
         <div class="col-sm-12">
           <h3>Event sponsors</h3>
-          <div class="logos">
+          <div class="d-flex justify-content-around logos">
             {% for sponsor in site.data.sponsors %} {% if sponsor.type != "main"
             and sponsor.type != "small" %}
             <a href="{{ sponsor.link }}" class="sponsor"
