@@ -3,15 +3,25 @@
 #  image: assets/img/sponsor.img
 #  type: main/presenter/remove if N/A
 #  link: https://example.com
+- name: Ortec
+  page: no
+  image: assets/img/ortec.png
+  type: event
+  link: https://ortec.com/
+- name: IMC
+  page: no
+  image: assets/img/imc.png
+  type: event
+  link: https://careers.imc.com/
 - name: ASML
   page: yes
   image: assets/img/asml.png
+  height: 60
   type: small
   link: https://www.workingatasml.com/
-  height: 60
 - name: Transtrend
   page: no
   image: assets/img/transtrend.png
-  type: small
   height: 80
+  type: small
   link: https://www.transtrend.com/nl/carri%C3%A8re/
