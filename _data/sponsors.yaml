@@ -3,7 +3,7 @@
 #  image: assets/img/sponsor.img
 #  type: main/presenter/remove if N/A
 #  link: https://example.com
-- name: Ortec
+- name: ORTEC
   page: no
   image: assets/img/ortec.png
   type: event
