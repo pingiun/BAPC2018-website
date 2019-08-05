@@ -11,8 +11,14 @@
 - name: IMC
   page: no
   image: assets/img/imc.png
+  height: 90
   type: event
   link: https://careers.imc.com/
+- name: Dassault Systèmes
+  page: no
+  image: assets/img/3ds.jpg
+  type: event
+  link: https://www.3ds.com/
 - name: ASML
   page: yes
   image: assets/img/asml.png
