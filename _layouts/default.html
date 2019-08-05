@@ -239,9 +239,17 @@
           <div class="d-flex justify-content-around logos">
             {% for sponsor in site.data.sponsors %} {% if sponsor.type != "main"
             and sponsor.type != "small" %}
-            <a href="{{ sponsor.link }}" class="sponsor"
-              ><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"
-            /></a>
+            <a href="{{ sponsor.link }}" class="sponsor">
+              {% if sponsor.height %}
+              <img
+                src="{{ sponsor.image }}"
+                alt="{{ sponsor.name }}"
+                style="height: {{ sponsor.height }}px"
+              />
+              {% else %}
+              <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+              {% endif %}
+            </a>
             {% endif %} {% endfor %}
           </div>
         </div>
