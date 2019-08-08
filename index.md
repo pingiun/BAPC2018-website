@@ -47,6 +47,7 @@ menu: main
     .countdown {
         display: flex;
         justify-content: space-around;
+        margin-bottom: 12px;
     }
     @media (max-width: 380px) {
         .countdown {
