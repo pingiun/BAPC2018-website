@@ -20,10 +20,26 @@ menu: main
         var count = new Countdown(target_date, new Date());
 
         count.countdown(function(time) {
-            $("#days").html(time.days);
-            $("#hours").html(time.hours);
-            $("#minutes").html(time.minutes);
-            $("#seconds").html(time.seconds);
+            if (time.days < 10) {
+                $("#days").html("0" + time.days);
+            } else {
+                $("#days").html(time.days);
+            }
+            if (time.hours < 10) {
+                $("#hours").html("0" + time.hours);
+            } else {
+                $("#hours").html(time.hours);
+            }
+            if (time.minutes < 10) {
+                $("#minutes").html("0" + time.minutes);
+            } else {
+                $("#minutes").html(time.minutes);
+            }
+            if (time.seconds < 10) {
+                $("#seconds").html("0" + time.seconds);
+            } else {
+                $("#seconds").html(time.seconds);
+            }
         });
     });
 </script>
