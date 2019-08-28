@@ -57,13 +57,16 @@
       }
 
       .orga {
+        flex: 1 1 0;
         width: 50%;
         padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .orgaimg {
         max-height: 100px;
-        max-width: 80%;
         margin-top: 20px;
       }
 
@@ -73,31 +76,26 @@
         max-width: 60%;
       }
 
-      a.sponsor {
-        display: inline-block;
-        padding: 15px;
-        display: flex;
-      }
-
-      a.sponsor img {
+      .sponsor img {
         max-height: 100px;
       }
 
-      a.smallsponsor {
-        display: inline-block;
-        height: 80px;
-        margin-bottom: 30px;
+      .sponsor {
+        flex: 1 1 0;
         display: flex;
+        justify-content: center;
         align-items: center;
+        margin-top: 24px;
       }
 
-      a.mainsponsor img {
+      .mainsponsor img {
         max-width: 60%;
       }
 
       .logos {
+        display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
-        text-align: center;
       }
 
       .flex {
@@ -236,20 +234,22 @@
       <div class="row">
         <div class="col-sm-12">
           <h3>Event sponsors</h3>
-          <div class="d-flex justify-content-around logos">
+          <div class="logos">
             {% for sponsor in site.data.sponsors %} {% if sponsor.type != "main"
             and sponsor.type != "small" %}
-            <a href="{{ sponsor.link }}" class="sponsor">
-              {% if sponsor.height %}
-              <img
-                src="{{ sponsor.image }}"
-                alt="{{ sponsor.name }}"
-                style="height: {{ sponsor.height }}px"
-              />
-              {% else %}
-              <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
-              {% endif %}
-            </a>
+            <div class="sponsor">
+              <a href="{{ sponsor.link }}">
+                {% if sponsor.height %}
+                <img
+                  src="{{ sponsor.image }}"
+                  alt="{{ sponsor.name }}"
+                  style="height: {{ sponsor.height }}px"
+                />
+                {% else %}
+                <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+                {% endif %}
+              </a>
+            </div>
             {% endif %} {% endfor %}
           </div>
         </div>
@@ -257,15 +257,17 @@
       <br />
       <div class="row">
         <div class="col-sm-12">
-          <div class="d-flex justify-content-around logos">
+          <div class="logos">
             {% for sponsor in site.data.sponsors %} {% if sponsor.type ==
             "small" %}
-            <a href="{{ sponsor.link }}" class="smallsponsor"
-              ><img
-                src="{{ sponsor.image }}"
-                alt="{{ sponsor.name }}"
-                style="height: {{ sponsor.height }}px;"
-            /></a>
+            <div class="sponsor">
+              <a href="{{ sponsor.link }}"
+                ><img
+                  src="{{ sponsor.image }}"
+                  alt="{{ sponsor.name }}"
+                  style="height: {{ sponsor.height }}px;"
+              /></a>
+            </div>
             {% endif %} {% endfor %}
           </div>
         </div>
@@ -279,7 +281,7 @@
       <div class="row">
         <div class="col-sm-12">
           <h3>Organized by</h3>
-          <div class="logos flex">
+          <div class="logos">
             {% for orga in site.data.organizers %}
             <div class="orga">
               <a href="{{ orga.link }}"

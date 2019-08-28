@@ -19,15 +19,21 @@
   image: assets/img/3ds.png
   type: event
   link: https://www.3ds.com/
-- name: ASML
-  page: yes
-  image: assets/img/asml.png
+- name: Achmea
+  page: no
+  image: assets/img/achmea.png
   height: 60
   type: small
-  link: https://www.workingatasml.com/
+  link: https://werkenbijachmea.nl/
 - name: Transtrend
   page: no
   image: assets/img/transtrend.png
-  height: 80
+  height: 100
   type: small
   link: https://www.transtrend.com/nl/carri%C3%A8re/
+- name: ASML
+  page: yes
+  image: assets/img/asml.png
+  height: 64
+  type: small
+  link: https://www.workingatasml.com/
