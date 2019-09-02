@@ -6,8 +6,6 @@ order: 2
 menu: contest
 ---
 
-The **preliminary** schedule is shown below. Please [contact us]({{ "contact.html" | absolute_url }}) if you have any questions.
-
 <table class="table table-bordered table-sm table-striped">
     <thead class="thead-dark">
         <tr><th>Time</th><th>Activity</th><th>Location</th></tr>
@@ -22,3 +20,5 @@ The **preliminary** schedule is shown below. Please [contact us]({{ "contact.htm
         <tr><td>19:30 - 22:00</td><td>Award ceremony and drinks</td><td>Restaurant Huygens building</td></tr>
     </tbody>
 </table>
+
+Please [contact us]({{ "contact.html" | absolute_url }}) if you have any questions.
