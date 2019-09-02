@@ -79,7 +79,7 @@ A business team:
 * All prints made by the teams will be brought by a runner. Participants are not allowed near the printers.
 * A team is allowed to bring up to 25 A4-sized pages, printed one-sided or up to 12.5 A4-sized pages, printed two-sided, of documentation. Text and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 1/2 meter. Each team member is allowed one identical copy.
 * A team is allowed to bring a dictionary from English to their native language.
-* A team is allowed to bring one non-programmable wired keyboard and/or mouse. The keyboard and the mouse needs to be checked by the jury before the testing session.
+* A team is allowed to bring one non-programmable wired USB keyboard and/or USB mouse. The keyboard and the mouse needs to be checked by the jury before the testing session. In other cases, a QWERTY keyboard and mouse is provided.
 * A team is allowed to bring pen and paper. Where available, the organisation will be providing pen and paper.
 * All items that are to be used during the contest, have to be handed in during registration to be checked by the organisation.
 
