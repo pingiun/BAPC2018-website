@@ -32,6 +32,7 @@ The following jury has been formed:
 * Onno Berrevoets
 * Daan van Gent
 * Ragnar Groot Koerkamp
+* Bjarki Guðmundsson
 * Timon Knigge
 * Thijs Limbeek
 * Harry Smit
