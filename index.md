@@ -84,6 +84,8 @@ and <a href='https://thalia.nu' target="_blank">Thalia</a>.
 
 Teams usually qualify themselves by participating in one of the [preliminaries](/preliminaries.html). After the preliminaries, the best teams will be selected for participation in the BAPC. Teams with three members get preference over those with less, and all should be affiliated with the same instutition in the Benelux. If you have a team and want to participate in the BAPC, but are not close enough to a preliminary, please [reach out to us](/contact.html).
 
+Teams should be registered **30 September** at the latest, including shirt sizes and dietary information (using the "special needs" field).
+
 ### Previous contests
 
 <ul id="previousContests">
