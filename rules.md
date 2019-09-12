@@ -6,7 +6,11 @@ order: 6
 menu: contest
 ---
 
-_Last updated: 2 September 2019_
+#### Changelog
+
+The changelog tracks changes from 12 September 2019 onwards.
+
+1. 12 September 2019: added information related to photos taken.
 
 #### General Rules
 
@@ -40,6 +44,11 @@ _Last updated: 2 September 2019_
 * Changing the composition of a team is only possible with the permission of the organisation and only before the start of the contest.
 * The organisation decides how many teams from each institution are allowed to compete. The organisation will consider the number of interested contestants from each institution. Teams consisting of 3 team members will get preference over teams with less members.
 * The organisation has the right to deny the participation of teams before the start of the contest.
+
+##### Photos
+
+* Participants and coaches agree that on the day of the contest, on-site, photos will be taken. Objection may be made to a photographer at any point.
+* The photos taken will be published on the website afterwards. In case someone objects to a photo in which he or she is recognizable, the photo will be immediately removed from the website.
 
 ##### Student teams
 A student team:
