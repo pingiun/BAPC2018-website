@@ -11,6 +11,7 @@ menu: contest
 The changelog tracks changes from 12 September 2019 onwards.
 
 1. 12 September 2019: added information related to photos taken.
+2. 14 September 2019: added rule forbidding electronic devices in computer rooms.
 
 #### General Rules
 
@@ -90,6 +91,7 @@ A business team:
 * A team is allowed to bring a dictionary from English to their native language.
 * A team is allowed to bring one non-programmable wired USB keyboard and/or USB mouse. The keyboard and the mouse needs to be checked by the jury before the testing session. In other cases, a QWERTY keyboard and mouse is provided.
 * A team is allowed to bring pen and paper. Where available, the organisation will be providing pen and paper.
+* Phones and other electronic devices, to be judged by the jury, are not allowed in the computer rooms.
 * All items that are to be used during the contest, have to be handed in during registration to be checked by the organisation. Registration is done per team.
 
 ##### Department rules
