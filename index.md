@@ -86,6 +86,10 @@ Teams usually qualify themselves by participating in one of the [preliminaries](
 
 Teams should be registered **30 September** at the latest, including shirt sizes and dietary information (using the "special needs" field).
 
+### During the contest
+
+The scorebord will be available live during the contest [here](/results.html). A livestream of the award ceremony will be available on the homepage after the contest ends.
+
 ### Previous contests
 
 <ul id="previousContests">

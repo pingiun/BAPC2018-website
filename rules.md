@@ -12,6 +12,7 @@ The changelog tracks changes from 12 September 2019 onwards.
 
 1. 12 September 2019: added information related to photos taken.
 2. 14 September 2019: added rule forbidding electronic devices in computer rooms.
+3. 20 September 2019: added information related to the award ceremony livestream.
 
 #### General Rules
 
@@ -46,10 +47,11 @@ The changelog tracks changes from 12 September 2019 onwards.
 * The organisation decides how many teams from each institution are allowed to compete. The organisation will consider the number of interested contestants from each institution. Teams consisting of 3 team members will get preference over teams with less members.
 * The organisation has the right to deny the participation of teams before the start of the contest.
 
-##### Photos
+##### Photos and videos
 
 * Participants and coaches agree that on the day of the contest, on-site, photos will be taken. Objection may be made to a photographer at any point.
 * The photos taken will be published on the website afterwards. In case someone objects to a photo in which he or she is recognizable, the photo will be immediately removed from the website.
+* There will be a public livestream of the award ceremony available on the website. The recording will be publicly available afterwards too. If you do not want to appear on this livestream or want to be removed from the footage afterwards, please contact the organization.
 
 ##### Student teams
 A student team:
