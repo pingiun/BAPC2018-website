@@ -52,7 +52,7 @@ python3 "$@"
 ```
 
 ## Available software
-**Note** as the exact versions of installed software are not under our control, the actually available version might differ slightly.
+**Note**: as the exact versions of installed software are not under our control, the actually available version might differ slightly.
 
 For each language, even though there may be more libraries available on the contestant systems,
 only the compiler and its standard libraries will be available on the judge systems!
