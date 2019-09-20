@@ -65,7 +65,7 @@ only the compiler and its standard libraries will be available on the judge syst
 
 ### IDEs and editors (with additional installed plugins)
 * **Eclipse** 2019-06 (4.12.0)
-    * ***CDT*** 9.8.0
+    * **CDT** 9.8.0
 * **IntelliJ IDEA CE** 2019.2.2
 * **PyCharm CE** 2019.2.1
 * **KDevelop** 5.2.1
