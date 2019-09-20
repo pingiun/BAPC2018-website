@@ -92,9 +92,8 @@ The scorebord will be available live during the contest [here](/results.html). A
 
 ### Previous contests
 
-<ul id="previousContests">
-    {% assign previous = site.year | minus : 1 %}
+<p id="previousContests">
+    Websites of the previous years are available: {% assign previous = site.year | minus : 1 %}
     {% for i in (2010..previous) %}
-        <li><a href="http://{{i}}.bapc.eu/" target="_blank">BAPC {{i}}</a></li>
-    {% endfor %}
-</ul>
+        <a href="http://{{i}}.bapc.eu/" target="_blank">{{i}}</a>{% unless forloop.last %},{% endunless %}{% endfor %}.
+</p>
