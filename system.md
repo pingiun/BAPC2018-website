@@ -14,9 +14,10 @@ Kotlin will also be available for company teams.
 Documentation for C, C++, Java, Python 2, Python 3, and Kotlin will be available through [zeal](https://zealdocs.org/).
 
 ## Compilation options
-(NOTE: these are subject to minor changes before the contest)
+**Note**: these are subject to minor changes before the contest
+
 For C and C++, the flag `-g` will be disabled on the judge systems.
-During the contest, the commands will be provided respectively as `mygcc`, `myg++`, `myjavac`, `myjava`, `mypython2` and `mypython3`.
+During the contest, the commands given below will be provided respectively as `mygcc`, `myg++`, `myjavac`, `myjava`, `mypython2` and `mypython3`.
 
 ### C99
 ```
@@ -51,9 +52,10 @@ python3 "$@"
 ```
 
 ## Available software
-NOTE: as the exact versions of installed software are not under our control, the actually available version might differ slightly.
+**Note** as the exact versions of installed software are not under our control, the actually available version might differ slightly.
 
-For each language, only the compiler and its standard libraries will be available on the judge systems!
+For each language, even though there may be more libraries available on the contestant systems,
+only the compiler and its standard libraries will be available on the judge systems!
 
 ### Compiler versions
 * **C & C++**: GCC 7.4.0
