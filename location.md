@@ -6,6 +6,10 @@ order: 5
 menu: main
 ---
 
+#### Public transportation maintenance work
+
+**Note**: at the day of the BAPC, there is some [scheduled engineering work](https://www.ns.nl/en/travel-information/maintenance-on-the-tracks) on the tracks that could possibly impact teams.
+
 #### Team reception
 
 The team reception will be at the **Huygens building, Heyendaalseweg 135, 6525 AJ Nijmegen**
