@@ -38,4 +38,5 @@ The following jury has been formed:
 * Harry Smit
 * David Venhoek
 * Mees de Vries
+* Abe Wits
 * Wessel van Woerden
