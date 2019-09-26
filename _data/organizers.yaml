@@ -7,8 +7,8 @@
 #     image: assets/img/science.png
 #     link: https://example.com
 - name: Thalia
-  image: assets/img/thalia-logo.png
+  image: /assets/img/thalia-logo.png
   link: https://thalia.nu
 - name: Desda
-  image: assets/img/desda-logo.png
+  image: /assets/img/desda-logo.png
   link: https://www.desda.org

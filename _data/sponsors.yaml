@@ -5,35 +5,35 @@
 #  link: https://example.com
 - name: ORTEC
   page: no
-  image: assets/img/ortec.png
+  image: /assets/img/ortec.png
   type: event
   link: https://ortec.com/
 - name: IMC
   page: no
-  image: assets/img/imc.png
+  image: /assets/img/imc.png
   height: 90
   type: event
   link: https://careers.imc.com/
 - name: Dassault Systèmes
   page: no
-  image: assets/img/3ds.png
+  image: /assets/img/3ds.png
   type: event
   link: https://www.3ds.com/
 - name: Achmea
   page: no
-  image: assets/img/achmea.png
+  image: /assets/img/achmea.png
   height: 60
   type: small
   link: https://werkenbijachmea.nl/
 - name: Transtrend
   page: no
-  image: assets/img/transtrend.png
+  image: /assets/img/transtrend.png
   height: 100
   type: small
   link: https://www.transtrend.com/nl/carri%C3%A8re/
 - name: ASML
   page: yes
-  image: assets/img/asml.png
+  image: /assets/img/asml.png
   height: 64
   type: small
   link: https://www.workingatasml.com/
