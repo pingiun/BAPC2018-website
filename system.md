@@ -69,7 +69,6 @@ only the compiler and its standard libraries will be available on the judge syst
 * **IntelliJ IDEA CE** 2019.2.2
 * **PyCharm CE** 2019.2.1
 * **KDevelop** 5.2.1
-* **NetBeans** 10.0
 * **QtCreator** 4.5.2
 * **Visual Studio Code** 1.38.1
     * **C/C++** 0.25.1
@@ -82,6 +81,8 @@ only the compiler and its standard libraries will be available on the judge syst
 * **Kate** 17.12.3
 * **Gedit** 3.28.1
 * **Nano** 2.9.3
+* *NetBeans* 10.0
+    * **Note**: Unfortunately, we can't guarantee NetBeans to work on contestant systems.
 
 ### Other
 * **Make** 4.1
