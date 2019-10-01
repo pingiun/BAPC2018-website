@@ -13,7 +13,6 @@ The following 12 companies participate in the BAPC:
 * ASML
 * BetterBe
 * Booking.com (two teams)
-* Centrum voor Wiskunde en Informatica
 * Dassault Systèmes
 * IMC
 * Ortec (two teams)
