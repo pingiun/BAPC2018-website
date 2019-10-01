@@ -6,4 +6,15 @@ order: 3
 menu: main
 ---
 
-The problem sets of the BAPC preliminaries and the BAPC itself will be made public after the respective contests have been held. To get an impression of the exercises you can take a look at those of earlier years, for example those of [2018](https://2018.bapc.eu/problems.html).
+#### BAPC
+
+The problem sets of the BAPC itself will be made public after the respective contests have been held.
+
+#### BAPC preliminaries
+
+* [Problem set PDF (web version)](https://github.com/pingiun/BAPC2019-website/releases/download/2019-preliminaries/contest-web.pdf)
+* [Problem set PDF (printable version)](https://github.com/pingiun/BAPC2019-website/releases/download/2019-preliminaries/contest.pdf)
+* [Solutions PDF (web version)](https://github.com/pingiun/BAPC2019-website/releases/download/2019-preliminaries/solutions-web.pdf)
+* [Solutions PDF (printable version)](https://github.com/pingiun/BAPC2019-website/releases/download/2019-preliminaries/solutions.pdf)
+* [ZIP containing problem statements, test data and jury solutions in DOMjudge format](https://github.com/pingiun/BAPC2019-website/releases/download/2019-preliminaries/preliminaries.zip)
+* [ZIP containing problem statements and test data in DOMjudge format for the test session](https://github.com/pingiun/BAPC2019-website/releases/download/2019-preliminaries/preliminaries_testsession.zip)
