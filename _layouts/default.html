@@ -234,7 +234,25 @@
           <h3>Event sponsors</h3>
           <div class="logos">
             {% for sponsor in site.data.sponsors %} {% if sponsor.type != "main"
-            and sponsor.type != "small" %}
+            and sponsor.type == "event1" %}
+            <div class="sponsor">
+              <a href="{{ sponsor.link }}">
+                {% if sponsor.height %}
+                <img
+                  src="{{ sponsor.image }}"
+                  alt="{{ sponsor.name }}"
+                  style="height: {{ sponsor.height }}px"
+                />
+                {% else %}
+                <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+                {% endif %}
+              </a>
+            </div>
+            {% endif %} {% endfor %}
+          </div>
+          <div class="logos">
+            {% for sponsor in site.data.sponsors %} {% if sponsor.type != "main"
+            and sponsor.type == "event2" %}
             <div class="sponsor">
               <a href="{{ sponsor.link }}">
                 {% if sponsor.height %}

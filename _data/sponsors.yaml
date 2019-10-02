@@ -6,19 +6,25 @@
 - name: ORTEC
   page: no
   image: /assets/img/ortec.png
-  type: event
+  type: event1
   link: https://ortec.com/
 - name: IMC
   page: no
   image: /assets/img/imc.png
   height: 90
-  type: event
+  type: event1
   link: https://careers.imc.com/
 - name: Dassault Systèmes
   page: no
   image: /assets/img/3ds.png
-  type: event
+  type: event2
   link: https://www.3ds.com/
+- name: Summitto
+  page: yes
+  image: /assets/img/summitto.svg
+  height: 68
+  type: event2
+  link: https://summitto.com/
 - name: Achmea
   page: no
   image: /assets/img/achmea.png
