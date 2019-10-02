@@ -16,9 +16,9 @@ The following 13 company teams participate in the BAPC:
 * Dassault Systèmes
 * IMC
 * Ortec (two teams)
+* QuSoft/CWI
 * Resnap
 * Sioux
-* QuSoft/CWI
 
 #### Student teams
 
