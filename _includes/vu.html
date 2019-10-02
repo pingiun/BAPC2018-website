@@ -1,1981 +1,1983 @@
-<table class="scoreboard center ">
-  <colgroup>
-    <col id="scorerank" />
-    <col />
-    <col id="scorelogos" />
-    <col id="scoreteamname" />
-  </colgroup>
-  <colgroup>
-    <col id="scoresolv" />
-    <col id="scoretotal" />
-  </colgroup>
-  <colgroup>
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-    <col class="scoreprob" />
-  </colgroup>
+<div style="overflow-x: scroll;">
+  <table class="scoreboard center ">
+    <colgroup>
+      <col id="scorerank" />
+      <col />
+      <col id="scorelogos" />
+      <col id="scoreteamname" />
+    </colgroup>
+    <colgroup>
+      <col id="scoresolv" />
+      <col id="scoretotal" />
+    </colgroup>
+    <colgroup>
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+      <col class="scoreprob" />
+    </colgroup>
 
-  <thead>
-    <tr class="scoreheader">
-      <th title="rank" scope="col">rank</th>
-      <th title="team name" scope="col" colspan="3">team</th>
-      <th title="# solved / penalty time" colspan="2" scope="col">score</th>
-      <th title="problem Architecture" scope="col">
-        <a target="_self">
-          A
-          <div class="circle" style="background: #ffdf5e;"></div>
-        </a>
-      </th>
-      <th title="problem Bracket Sequence" scope="col">
-        <a target="_self">
-          B
-          <div class="circle" style="background: #000000;"></div>
-        </a>
-      </th>
-      <th title="problem Canyon Crossings" scope="col">
-        <a target="_self">
-          C
-          <div class="circle" style="background: #79ff40;"></div>
-        </a>
-      </th>
-      <th title="problem Deceptive Dice" scope="col">
-        <a target="_self">
-          D
-          <div class="circle" style="background: #FFFFFF;"></div>
-        </a>
-      </th>
-      <th title="problem Exits in Excess" scope="col">
-        <a target="_self">
-          E
-          <div class="circle" style="background: #d1a3ff;"></div>
-        </a>
-      </th>
-      <th title="problem Floor Plan" scope="col">
-        <a target="_self">
-          F
-          <div class="circle" style="background: #999999;"></div>
-        </a>
-      </th>
-      <th title="problem Greetings!" scope="col">
-        <a target="_self">
-          G
-          <div class="circle" style="background: #4da2b3;"></div>
-        </a>
-      </th>
-      <th title="problem Hexagonal Rooks" scope="col">
-        <a target="_self">
-          H
-          <div class="circle" style="background: #279627;"></div>
-        </a>
-      </th>
-      <th title="problem Inquiry I" scope="col">
-        <a target="_self">
-          I
-          <div class="circle" style="background: #5768ff;"></div>
-        </a>
-      </th>
-      <th title="problem Jumbled Journey" scope="col">
-        <a target="_self">
-          J
-          <div class="circle" style="background: #fff3b5;"></div>
-        </a>
-      </th>
-      <th title="problem Knapsack Packing" scope="col">
-        <a target="_self">
-          K
-          <div class="circle" style="background: #b30c44;"></div>
-        </a>
-      </th>
-      <th title="problem Lifeguards" scope="col">
-        <a target="_self">
-          L
-          <div class="circle" style="background: #ff3bd8;"></div>
-        </a>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="sortorderswitch" id="team:10">
-      <td class="scorepl">
-        1
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(1,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          utrecht
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="3 Anchors No Captain">
-        <a>
-          <span class="forceWidth">
-            3 Anchors No Captain
-          </span>
-          <span class="univ forceWidth">
-            InHolland - Diemen
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">8</td>
-      <td class="scorett">975</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct score_first">
-            18
-            <span>
-              1 try
+    <thead>
+      <tr class="scoreheader">
+        <th title="rank" scope="col">rank</th>
+        <th title="team name" scope="col" colspan="3">team</th>
+        <th title="# solved / penalty time" colspan="2" scope="col">score</th>
+        <th title="problem Architecture" scope="col">
+          <a target="_self">
+            A
+            <div class="circle" style="background: #ffdf5e;"></div>
+          </a>
+        </th>
+        <th title="problem Bracket Sequence" scope="col">
+          <a target="_self">
+            B
+            <div class="circle" style="background: #000000;"></div>
+          </a>
+        </th>
+        <th title="problem Canyon Crossings" scope="col">
+          <a target="_self">
+            C
+            <div class="circle" style="background: #79ff40;"></div>
+          </a>
+        </th>
+        <th title="problem Deceptive Dice" scope="col">
+          <a target="_self">
+            D
+            <div class="circle" style="background: #FFFFFF;"></div>
+          </a>
+        </th>
+        <th title="problem Exits in Excess" scope="col">
+          <a target="_self">
+            E
+            <div class="circle" style="background: #d1a3ff;"></div>
+          </a>
+        </th>
+        <th title="problem Floor Plan" scope="col">
+          <a target="_self">
+            F
+            <div class="circle" style="background: #999999;"></div>
+          </a>
+        </th>
+        <th title="problem Greetings!" scope="col">
+          <a target="_self">
+            G
+            <div class="circle" style="background: #4da2b3;"></div>
+          </a>
+        </th>
+        <th title="problem Hexagonal Rooks" scope="col">
+          <a target="_self">
+            H
+            <div class="circle" style="background: #279627;"></div>
+          </a>
+        </th>
+        <th title="problem Inquiry I" scope="col">
+          <a target="_self">
+            I
+            <div class="circle" style="background: #5768ff;"></div>
+          </a>
+        </th>
+        <th title="problem Jumbled Journey" scope="col">
+          <a target="_self">
+            J
+            <div class="circle" style="background: #fff3b5;"></div>
+          </a>
+        </th>
+        <th title="problem Knapsack Packing" scope="col">
+          <a target="_self">
+            K
+            <div class="circle" style="background: #b30c44;"></div>
+          </a>
+        </th>
+        <th title="problem Lifeguards" scope="col">
+          <a target="_self">
+            L
+            <div class="circle" style="background: #ff3bd8;"></div>
+          </a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="sortorderswitch" id="team:10">
+        <td class="scorepl">
+          1
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(1,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            utrecht
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="3 Anchors No Captain">
+          <a>
+            <span class="forceWidth">
+              3 Anchors No Captain
             </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            112
-            <span>
-              1 try
+            <span class="univ forceWidth">
+              InHolland - Diemen
             </span>
-          </div>
-        </a>
-      </td>
+          </a>
+        </td>
+        <td class="scorenc">8</td>
+        <td class="scorett">975</td>
 
-      <td class="score_cell">
-        <a>
-          <div class="score_correct score_first">
-            290
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
+        <td class="score_cell">
+          <a>
+            <div class="score_correct score_first">
+              18
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
 
-      <td class="score_cell">
-        <a>
-          <div class="score_correct score_first">
-            82
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              112
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
 
-      <td class="score_cell">
-        <a>
-          <div class="score_correct score_first">
-            236
-            <span>
-              5 tries
-            </span>
-          </div>
-        </a>
-      </td>
+        <td class="score_cell">
+          <a>
+            <div class="score_correct score_first">
+              290
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
 
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            42
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
+        <td class="score_cell">
+          <a>
+            <div class="score_correct score_first">
+              82
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
 
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            38
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
+        <td class="score_cell">
+          <a>
+            <div class="score_correct score_first">
+              236
+              <span>
+                5 tries
+              </span>
+            </div>
+          </a>
+        </td>
 
-      <td class="score_cell"></td>
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              42
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
 
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            57
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              38
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
 
-      <td class="score_cell"></td>
+        <td class="score_cell"></td>
 
-      <td class="score_cell"></td>
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              57
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
 
-      <td class="score_cell"></td>
-    </tr>
+        <td class="score_cell"></td>
 
-    <tr class="" id="team:20">
-      <td class="scorepl">
-        2
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(2,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:20">
+        <td class="scorepl">
           2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="Shockers">
-        <a>
-          <span class="forceWidth">
-            Shockers
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">7</td>
-      <td class="scorett">921</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            85
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            158
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            279
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            13
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            18
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            51
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct score_first">
-            257
-            <span>
-              3 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:9">
-      <td class="scorepl">
-        3
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(3,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="darkhorse">
-        <a>
-          <span class="forceWidth">
-            darkhorse
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">6</td>
-      <td class="scorett">540</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            104
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct score_first">
-            76
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            280
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct score_first">
-            9
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            13
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct score_first">
-            18
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:11">
-      <td class="scorepl">
-        4
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(4,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="The Amazon is on fire">
-        <a>
-          <span class="forceWidth">
-            The Amazon is on fire
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">6</td>
-      <td class="scorett">632</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            91
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            245
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            130
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            69
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            13
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            44
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:15">
-      <td class="scorepl">
-        5
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(5,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="Big Oof Notation">
-        <a>
-          <span class="forceWidth">
-            Big Oof Notation
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">4</td>
-      <td class="scorett">594</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            134
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              4 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            165
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            35
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            180
-            <span>
-              4 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:8">
-      <td class="scorepl">
-        6
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(6,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="3T">
-        <a>
-          <span class="forceWidth">
-            3T
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">3</td>
-      <td class="scorett">519</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            227
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              6 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            51
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            161
-            <span>
-              3 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:19">
-      <td class="scorepl">
-        7
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(7,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="Bites the byte">
-        <a>
-          <span class="forceWidth">
-            Bites the byte
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">2</td>
-      <td class="scorett">330</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            273
-            <span>
-              3 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            17
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:18">
-      <td class="scorepl">
-        8
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(8,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="Condition Terror">
-        <a>
-          <span class="forceWidth">
-            Condition Terror
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">1</td>
-      <td class="scorett">8</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct score_first">
-            8
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:21">
-      <td class="scorepl">
-        9
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(9,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="ByteUs">
-        <a>
-          <span class="forceWidth">
-            ByteUs
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">1</td>
-      <td class="scorett">24</td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              10 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            24
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:17">
-      <td class="scorepl">
-        10
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(10,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="cat -n call.txt">
-        <a>
-          <span class="forceWidth">
-            cat -n call.txt
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">1</td>
-      <td class="scorett">47</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              4 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              5 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            47
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              5 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:13">
-      <td class="scorepl">
-        11
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(11,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="Kaasstengels">
-        <a>
-          <span class="forceWidth">
-            Kaasstengels
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">1</td>
-      <td class="scorett">82</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              5 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            82
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              4 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:14">
-      <td class="scorepl"></td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(12,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="Mothers Against Fortnite">
-        <a>
-          <span class="forceWidth">
-            Mothers Against Fortnite
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">1</td>
-      <td class="scorett">82</td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            82
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              4 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:23">
-      <td class="scorepl">
-        13
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(13,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="Frikandel boys">
-        <a>
-          <span class="forceWidth">
-            Frikandel boys
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">1</td>
-      <td class="scorett">96</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              8 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              9 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            96
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:12">
-      <td class="scorepl">
-        14
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(14,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="Frank &amp; Alfred">
-        <a>
-          <span class="forceWidth">
-            Frank &amp; Alfred
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">1</td>
-      <td class="scorett">105</td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              3 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            85
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr class="" id="team:16">
-      <td class="scorepl">
-        15
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(15,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="El Perro Rosa">
-        <a>
-          <span class="forceWidth">
-            El Perro Rosa
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">1</td>
-      <td class="scorett">124</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              8 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            64
-            <span>
-              4 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              1 try
-            </span>
-          </div>
-        </a>
-      </td>
-    </tr>
-
-    <tr class="" id="team:22">
-      <td class="scorepl">
-        16
-      </td>
-      <td class="scoreaf">
-        <span class="heart far fa-heart" onclick="toggle(16,true)"></span>
-      </td>
-      <td class="scoreaf">
-        <a>
-          2
-        </a>
-      </td>
-      <td class="scoretn cl_FFFFFF" title="Three little ponies">
-        <a>
-          <span class="forceWidth">
-            Three little ponies
-          </span>
-          <span class="univ forceWidth">
-            Vrije Universiteit Amsterdam
-          </span>
-        </a>
-      </td>
-      <td class="scorenc">1</td>
-      <td class="scorett">221</td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              2 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              10 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_correct">
-            161
-            <span>
-              4 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell">
-        <a>
-          <div class="score_incorrect">
-            &nbsp;
-            <span>
-              6 tries
-            </span>
-          </div>
-        </a>
-      </td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-
-      <td class="score_cell"></td>
-    </tr>
-
-    <tr style="border-top: 2px solid black;">
-      <td id="scoresummary" title="Summary" colspan="4">Summary</td>
-      <td title="total solved" class="scorenc">
-        45
-      </td>
-      <td></td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            7
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            22
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            18min
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            4
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            17
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            76min
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            1
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            1
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            290min
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            4
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            4
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            82min
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            1
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            6
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            236min
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            5
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            58
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            9min
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            16
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            8
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            8min
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            1
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            n/a
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            6
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            31
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            18min
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            1
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            n/a
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            1
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            4
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            257min
-          </span>
-        </a>
-      </td>
-      <td style="text-align: left;">
-        <a>
-          <i class="fas fa-thumbs-up fa-fw"></i>
-          <span style="font-size:90%;" title="number of accepted submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-thumbs-down fa-fw"></i>
-          <span style="font-size:90%;" title="number of rejected submissions">
-            1
-          </span>
-          <br />
-
-          <i class="fas fa-question-circle fa-fw"></i>
-          <span style="font-size:90%;" title="number of pending submissions">
-            0
-          </span>
-          <br />
-
-          <i class="fas fa-clock fa-fw"></i>
-          <span style="font-size:90%;" title="first solved">
-            n/a
-          </span>
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(2,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="Shockers">
+          <a>
+            <span class="forceWidth">
+              Shockers
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">7</td>
+        <td class="scorett">921</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              85
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              158
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              279
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              13
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              18
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              51
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct score_first">
+              257
+              <span>
+                3 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:9">
+        <td class="scorepl">
+          3
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(3,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="darkhorse">
+          <a>
+            <span class="forceWidth">
+              darkhorse
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">6</td>
+        <td class="scorett">540</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              104
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct score_first">
+              76
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              280
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct score_first">
+              9
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              13
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct score_first">
+              18
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:11">
+        <td class="scorepl">
+          4
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(4,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="The Amazon is on fire">
+          <a>
+            <span class="forceWidth">
+              The Amazon is on fire
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">6</td>
+        <td class="scorett">632</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              91
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              245
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              130
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              69
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              13
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              44
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:15">
+        <td class="scorepl">
+          5
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(5,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="Big Oof Notation">
+          <a>
+            <span class="forceWidth">
+              Big Oof Notation
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">4</td>
+        <td class="scorett">594</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              134
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                4 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              165
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              35
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              180
+              <span>
+                4 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:8">
+        <td class="scorepl">
+          6
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(6,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="3T">
+          <a>
+            <span class="forceWidth">
+              3T
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">3</td>
+        <td class="scorett">519</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              227
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                6 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              51
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              161
+              <span>
+                3 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:19">
+        <td class="scorepl">
+          7
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(7,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="Bites the byte">
+          <a>
+            <span class="forceWidth">
+              Bites the byte
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">2</td>
+        <td class="scorett">330</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              273
+              <span>
+                3 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              17
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:18">
+        <td class="scorepl">
+          8
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(8,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="Condition Terror">
+          <a>
+            <span class="forceWidth">
+              Condition Terror
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">1</td>
+        <td class="scorett">8</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct score_first">
+              8
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:21">
+        <td class="scorepl">
+          9
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(9,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="ByteUs">
+          <a>
+            <span class="forceWidth">
+              ByteUs
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">1</td>
+        <td class="scorett">24</td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                10 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              24
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:17">
+        <td class="scorepl">
+          10
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(10,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="cat -n call.txt">
+          <a>
+            <span class="forceWidth">
+              cat -n call.txt
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">1</td>
+        <td class="scorett">47</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                4 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                5 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              47
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                5 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:13">
+        <td class="scorepl">
+          11
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(11,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="Kaasstengels">
+          <a>
+            <span class="forceWidth">
+              Kaasstengels
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">1</td>
+        <td class="scorett">82</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                5 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              82
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                4 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:14">
+        <td class="scorepl"></td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(12,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="Mothers Against Fortnite">
+          <a>
+            <span class="forceWidth">
+              Mothers Against Fortnite
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">1</td>
+        <td class="scorett">82</td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              82
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                4 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:23">
+        <td class="scorepl">
+          13
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(13,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="Frikandel boys">
+          <a>
+            <span class="forceWidth">
+              Frikandel boys
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">1</td>
+        <td class="scorett">96</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                8 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                9 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              96
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:12">
+        <td class="scorepl">
+          14
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(14,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="Frank &amp; Alfred">
+          <a>
+            <span class="forceWidth">
+              Frank &amp; Alfred
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">1</td>
+        <td class="scorett">105</td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                3 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              85
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr class="" id="team:16">
+        <td class="scorepl">
+          15
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(15,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="El Perro Rosa">
+          <a>
+            <span class="forceWidth">
+              El Perro Rosa
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">1</td>
+        <td class="scorett">124</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                8 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              64
+              <span>
+                4 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                1 try
+              </span>
+            </div>
+          </a>
+        </td>
+      </tr>
+
+      <tr class="" id="team:22">
+        <td class="scorepl">
+          16
+        </td>
+        <td class="scoreaf">
+          <span class="heart far fa-heart" onclick="toggle(16,true)"></span>
+        </td>
+        <td class="scoreaf">
+          <a>
+            2
+          </a>
+        </td>
+        <td class="scoretn cl_FFFFFF" title="Three little ponies">
+          <a>
+            <span class="forceWidth">
+              Three little ponies
+            </span>
+            <span class="univ forceWidth">
+              Vrije Universiteit Amsterdam
+            </span>
+          </a>
+        </td>
+        <td class="scorenc">1</td>
+        <td class="scorett">221</td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                2 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                10 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_correct">
+              161
+              <span>
+                4 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell">
+          <a>
+            <div class="score_incorrect">
+              &nbsp;
+              <span>
+                6 tries
+              </span>
+            </div>
+          </a>
+        </td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+
+        <td class="score_cell"></td>
+      </tr>
+
+      <tr style="border-top: 2px solid black;">
+        <td id="scoresummary" title="Summary" colspan="4">Summary</td>
+        <td title="total solved" class="scorenc">
+          45
+        </td>
+        <td></td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              7
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              22
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              18min
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              4
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              17
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              76min
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              1
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              1
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              290min
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              4
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              4
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              82min
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              1
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              6
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              236min
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              5
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              58
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              9min
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              16
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              8
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              8min
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              1
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              n/a
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              6
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              31
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              18min
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              1
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              n/a
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              1
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              4
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              257min
+            </span>
+          </a>
+        </td>
+        <td style="text-align: left;">
+          <a>
+            <i class="fas fa-thumbs-up fa-fw"></i>
+            <span style="font-size:90%;" title="number of accepted submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-thumbs-down fa-fw"></i>
+            <span style="font-size:90%;" title="number of rejected submissions">
+              1
+            </span>
+            <br />
+
+            <i class="fas fa-question-circle fa-fw"></i>
+            <span style="font-size:90%;" title="number of pending submissions">
+              0
+            </span>
+            <br />
+
+            <i class="fas fa-clock fa-fw"></i>
+            <span style="font-size:90%;" title="first solved">
+              n/a
+            </span>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
