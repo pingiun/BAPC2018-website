@@ -7,7 +7,7 @@ menu: contest
 ---
 
 #### Company teams
-The following 12 companies participate in the BAPC:
+The following 13 company teams participate in the BAPC:
 
 * Achmea (two teams)
 * ASML
@@ -18,6 +18,7 @@ The following 12 companies participate in the BAPC:
 * Ortec (two teams)
 * Resnap
 * Sioux
+* QuSoft/CWI
 
 #### Student teams
 
