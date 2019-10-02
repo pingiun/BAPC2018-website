@@ -80,12 +80,6 @@ qualify themselves for a ticket to the International Collegiate Programming Cont
 The BAPC {{site.year}} will take place on <b>{{site.day}}</b> at the Radboud University in Nijmegen, The Netherlands and is co-organised by <a href='https://www.desda.org/' target="_blank">Desda</a>
 and <a href='https://thalia.nu' target="_blank">Thalia</a>.
 
-### How to participate
-
-Teams usually qualify themselves by participating in one of the [preliminaries](/preliminaries.html). After the preliminaries, the best teams will be selected for participation in the BAPC. Teams with three members get preference over those with less, and all should be affiliated with the same instutition in the Benelux. If you have a team and want to participate in the BAPC, but are not close enough to a preliminary, please [reach out to us](/contact.html).
-
-Teams should be registered **30 September** at the latest, including shirt sizes and dietary information (using the "special needs" field).
-
 ### During the contest
 
 The scorebord will be available live during the contest [here](/results.html). A livestream of the award ceremony will be available on the homepage after the contest ends.
