@@ -11,6 +11,7 @@ menu: contest
 The changelog tracks changes from September 30, 2019 onwards.
 
 1. September 30, 2019: added note that NetBeans may not be available.
+2. October 7, 2019: NetBeans will not be available, updated versions of installed software and compilation options.
 
 #### Overview
 
@@ -29,12 +30,12 @@ During the contest, the commands given below will be provided respectively as `m
 
 ##### C99
 ```
-gcc -x c -Wall -O2 -std=gnu99 -static -pipe -o $DEST "$@" -lm
+gcc -x c -Wall -O2 -std=gnu99 -static -pipe "$@" -lm
 ```
 
 ##### C++17
 ```
-g++ -x c++ -Wall -O2 -std=c++17 -static -pipe -o $DEST "$@"
+g++ -x c++ -Wall -O2 -std=c++17 -static -pipe "$@"
 ```
 
 ##### Java
@@ -46,7 +47,7 @@ javac -encoding UTF-8 -d . "$@"
 
 ###### Runtime:
 ````
-java -Xrs -XX:+UseSerialGC -Xss65536k -Xms1441792k -Xmx1441792k $MAINCLASS
+java -Xrs -XX:+UseSerialGC -Xss65536k -Xms1441792k -Xmx1441792k $@
 ````
 
 ##### Python 2
@@ -68,8 +69,8 @@ only the compiler and its standard libraries will be available on the judge syst
 ##### Compiler versions
 * **C & C++**: GCC 7.4.0
 * **Java**: OpenJDK 11.0.4
-* **Python 2**: Python 2.7.15
-* **Python 3**: Python 3.6.7
+* **Python 2**: Python 2.7.13 (PyPy 5.10)
+* **Python 3**: Python 3.6.8
 
 ##### IDEs and editors (with additional installed plugins)
 * **Eclipse** 2019-06 (4.12.0)
@@ -80,24 +81,25 @@ only the compiler and its standard libraries will be available on the judge syst
 * **QtCreator** 4.5.2
 * **Visual Studio Code** 1.38.1
     * **C/C++** 0.25.1
-    * **Java Language Support** 0.48.0
+    * **Java Language Support** 0.50.0
     * **Python** 2019.9.34911
 * **CodeBlocks** 16.01
 * **Geany** 1.32
-* **Emacs** 25.2
+* **Emacs** 25.2.2
 * **Vim** 8.0.1453
 * **Kate** 17.12.3
 * **Gedit** 3.28.1
 * **Nano** 2.9.3
-* *NetBeans* 10.0
-    * **Note**: Unfortunately, we can't guarantee NetBeans to work on contestant systems.
+* ~~*NetBeans 10.0*~~
+    * **Note**: Unfortunately, NetBeans won't be available.
 
 ##### Other
+* **Bash** 4.4
 * **Make** 4.1
 * **GDB** 8.1
 * **Valgrind** 3.13.0
 * **Git** 2.17.1
-* **Screen** 4.6.2
+* **Screen** 4.06.02
 * **Tmux** 2.6
 * **Galculator** 2.1.4
 * **Evince** 3.28.4
