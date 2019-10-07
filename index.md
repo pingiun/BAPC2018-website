@@ -86,7 +86,7 @@ The scorebord will be available live during the contest [here](/results.html). A
 
 ### Semi-live and live contest for non-participants
 
-Furthermore, there will be a semi-live contest hosted by one of the DOMjudge developers at [contest.domjudge.org](http://contest.domjudge.org/). Anyone can self-register already, but the contest will start 30 minutes after the live contest has started. For people attending locally, there will be the possibility to participate on the live DOMjudge server at the same time as the participants.
+A semi-live contest will be available, hosted by one of the DOMjudge developers at [contest.domjudge.org](http://contest.domjudge.org/). Anyone can self-register already, but the contest will start 30 minutes after the live contest has started. For people attending locally, there will be the possibility to participate on the live DOMjudge server at the same time as the participants.
 
 ### Previous contests
 
