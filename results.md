@@ -10,7 +10,7 @@ The scoreboards of the preliminaries are shown below as far as they have been ma
 
 #### Preliminaries (merged)
 
-Below is a merged scoreboard from all preliminaries, except for the University of Twente, thanks to Ragnar Groot Koerkamp. The individual scoreboards follow beneath it.
+Below is a merged scoreboard from all preliminaries, thanks to Ragnar Groot Koerkamp. The individual scoreboards follow beneath it.
 
 {% include merged.html %}
 
@@ -39,6 +39,10 @@ Below is a merged scoreboard from all preliminaries, except for the University o
 ##### Nijmegen
 
 {% include nijmegen.html %}
+
+##### Twente
+
+{% include twente.html %}
 
 ##### Utrecht
 
