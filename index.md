@@ -13,35 +13,40 @@ menu: main
     <div class="timer"><b class="countdownvalue" id="countdownD"></b><span class="word" id="countdownTextD"></span></div>
 </div>
 
-<script src="/assets/js/countdown.js"></script>
+<script src="/assets/js/moment.min.js"></script>
 <script>
     $(document).ready(function() {
-        var target_date = new Date(2019, 9, 19, 9, 0, 0);
-        var count = new Countdown(target_date, new Date());
-
-        count.countdown(function(time) {
-            if (time.days == 0) {
+        window.setInterval(function() {
+            var difference = new Date(2019, 9, 19, 9, 0, 0) - new Date();
+            var time;
+            if (difference < 0) {
+                time = moment.duration(0);
+            } else {
+                time = moment.duration(difference);
+            }
+            
+            if (time.asHours() < 24) {
                 $("#countdownTextA").html("hours");
                 $("#countdownTextB").html("minutes");
                 $("#countdownTextC").html("seconds");
                 $("#countdownTextD").html("cs");
 
-                $("#countdownA").html(time.hours.toString().padStart(2, "0"));
-                $("#countdownB").html(time.minutes.toString().padStart(2, "0"));
-                $("#countdownC").html(time.seconds.toString().padStart(2, "0"));
-                $("#countdownD").html(time.centiseconds.toString().padStart(2, "0"));
+                $("#countdownA").html((Math.floor(time.asHours()) % 24).toString().padStart(2, "0"));
+                $("#countdownB").html((Math.floor(time.asMinutes()) % 60).toString().padStart(2, "0"));
+                $("#countdownC").html((Math.floor(time.asSeconds()) % 60).toString().padStart(2, "0"));
+                $("#countdownD").html((Math.floor(time.asMilliseconds() / 10) % 100).toString().padStart(2, "0"));
             } else {
                 $("#countdownTextA").html("days");
                 $("#countdownTextB").html("hours");
                 $("#countdownTextC").html("minutes");
                 $("#countdownTextD").html("seconds");
 
-                $("#countdownA").html(time.days.toString().padStart(2, "0"));
-                $("#countdownB").html(time.hours.toString().padStart(2, "0"));
-                $("#countdownC").html(time.minutes.toString().padStart(2, "0"));
-                $("#countdownD").html(time.seconds.toString().padStart(2, "0"));
+                $("#countdownA").html(Math.floor(time.asDays()).toString().padStart(2, "0"));
+                $("#countdownB").html((Math.floor(time.asHours()) % 24).toString().padStart(2, "0"));
+                $("#countdownC").html((Math.floor(time.asMinutes()) % 60).toString().padStart(2, "0"));
+                $("#countdownD").html((Math.floor(time.asSeconds()) % 60).toString().padStart(2, "0"));
             }
-        });
+        }, 10);
     });
 </script>
 <style>
