@@ -6,8 +6,6 @@ order: 0
 menu: main
 ---
 
-<button type="submit" id="live-button" class="btn btn-lg btn-block btn-primary" onclick="location.href='/live';">View livestream and scoreboard</button>
-
 ### About the BAPC
 
 The Benelux Algorithm Programming Contest (BAPC) is a contest in which about 50 teams from leading universities in Luxemburg,
@@ -17,16 +15,14 @@ semi-automated judging system, after which the solution is checked. The teams th
 of the contest qualify for the Northwestern European Regional Contest (NWERC). In this regional competition the teams can
 qualify themselves for a ticket to the International Collegiate Programming Contest (ICPC), also known as the World Finals.
 
-The BAPC {{site.year}} will take place on <b>{{site.day}}</b> at the Radboud University in Nijmegen, The Netherlands and is co-organised by <a href='https://www.desda.org/' target="_blank">Desda</a>
+The BAPC {{site.year}} took place on <b>{{site.day}}</b> at the Radboud University in Nijmegen, The Netherlands and was co-organised by <a href='https://www.desda.org/' target="_blank">Desda</a>
 and <a href='https://thalia.nu' target="_blank">Thalia</a>.
 
-### During the contest
+### Results
 
-The scorebord is available during the contest via a [livestream and a web version](/live.html). The jury's solution presentation and the award ceremony are also livestreamed.
+The scorebord and broadcast livestream are available [here](/live.html). The problem set, solutions, presentation and definitive results will be published soon.
 
-### Semi-live and live contest for non-participants
-
-A semi-live contest is available, hosted by one of the DOMjudge developers at [contest.domjudge.org](http://contest.domjudge.org/). Anyone can self-register, the contest will start 30 minutes after the live contest has started. For people attending locally, there is the possibility to participate on the live DOMjudge server at the same time as the participants.
+The results of the semi-live contest are available [here](http://contest.domjudge.org/).
 
 ### Previous contests
 
