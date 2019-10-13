@@ -16,15 +16,18 @@ menu: main
 <script src="/assets/js/moment.min.js"></script>
 <script>
     $(document).ready(function() {
-        window.setInterval(function() {
+        var interval = window.setInterval(function() {
             var difference = new Date(2019, 9, 19, 9, 0, 0) - new Date();
             var time;
             if (difference < 0) {
+                $(".countdown").hide();
+                $("#live-button").prop("disabled", false);
                 time = moment.duration(0);
+                window.clearInterval(interval);
             } else {
                 time = moment.duration(difference);
             }
-            
+
             if (time.asHours() < 24) {
                 $("#countdownTextA").html("hours");
                 $("#countdownTextB").html("minutes");
@@ -88,7 +91,9 @@ and <a href='https://thalia.nu' target="_blank">Thalia</a>.
 
 ### During the contest
 
-The scorebord will be available live during the contest [here](/results.html). A livestream of the award ceremony will be available on the homepage after the contest itself has ended.
+The scorebord will be available during the contest via a livestream and a web version, accessible via the button below on the day of the contest. The jury's solution presentation and the award ceremony will also be livestreamed.
+
+<center><button type="submit" id="live-button" class="btn btn-lg btn-primary" onclick="location.href='/live';" disabled>View livestream and scoreboard</button></center><br/>
 
 ### Semi-live and live contest for non-participants
 
