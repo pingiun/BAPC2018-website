@@ -6,76 +6,7 @@ order: 0
 menu: main
 ---
 
-<div class="countdown">
-    <div class="timer"><b class="countdownvalue" id="countdownA"></b><span class="word" id="countdownTextA"></span></div>
-    <div class="timer"><b class="countdownvalue" id="countdownB"></b><span class="word" id="countdownTextB"></span></div>
-    <div class="timer"><b class="countdownvalue" id="countdownC"></b><span class="word" id="countdownTextC"></span></div>
-    <div class="timer"><b class="countdownvalue" id="countdownD"></b><span class="word" id="countdownTextD"></span></div>
-</div>
-
-<script src="/assets/js/moment.min.js"></script>
-<script>
-    $(document).ready(function() {
-        var interval = window.setInterval(function() {
-            var difference = new Date(2019, 9, 19, 9, 0, 0) - new Date();
-            var time;
-            if (difference < 0) {
-                $(".countdown").hide();
-                $("#live-button").prop("disabled", false);
-                time = moment.duration(0);
-                window.clearInterval(interval);
-            } else {
-                time = moment.duration(difference);
-            }
-
-            if (time.asHours() < 24) {
-                $("#countdownTextA").html("hours");
-                $("#countdownTextB").html("minutes");
-                $("#countdownTextC").html("seconds");
-                $("#countdownTextD").html("cs");
-
-                $("#countdownA").html((Math.floor(time.asHours()) % 24).toString().padStart(2, "0"));
-                $("#countdownB").html((Math.floor(time.asMinutes()) % 60).toString().padStart(2, "0"));
-                $("#countdownC").html((Math.floor(time.asSeconds()) % 60).toString().padStart(2, "0"));
-                $("#countdownD").html((Math.floor(time.asMilliseconds() / 10) % 100).toString().padStart(2, "0"));
-            } else {
-                $("#countdownTextA").html("days");
-                $("#countdownTextB").html("hours");
-                $("#countdownTextC").html("minutes");
-                $("#countdownTextD").html("seconds");
-
-                $("#countdownA").html(Math.floor(time.asDays()).toString().padStart(2, "0"));
-                $("#countdownB").html((Math.floor(time.asHours()) % 24).toString().padStart(2, "0"));
-                $("#countdownC").html((Math.floor(time.asMinutes()) % 60).toString().padStart(2, "0"));
-                $("#countdownD").html((Math.floor(time.asSeconds()) % 60).toString().padStart(2, "0"));
-            }
-        }, 10);
-    });
-</script>
-<style>
-    .countdown {
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 12px;
-    }
-    @media (max-width: 380px) {
-        .countdown {
-            display: none;
-        }
-    }
-    .timer {
-        padding: 10px;
-        text-align: center;
-    }
-    .countdownvalue {
-        display: block;
-        font-size: 4rem;
-        line-height: 1;
-    }
-    .word {
-        display: block;
-    }
-</style>
+<button type="submit" id="live-button" class="btn btn-lg btn-block btn-primary" onclick="location.href='/live';">View livestream and scoreboard</button>
 
 ### About the BAPC
 
@@ -91,13 +22,11 @@ and <a href='https://thalia.nu' target="_blank">Thalia</a>.
 
 ### During the contest
 
-The scorebord will be available during the contest via a livestream and a web version, accessible via the button below on the day of the contest. The jury's solution presentation and the award ceremony will also be livestreamed.
-
-<center><button type="submit" id="live-button" class="btn btn-lg btn-primary" onclick="location.href='/live';" disabled>View livestream and scoreboard</button></center><br/>
+The scorebord is available during the contest via a [livestream and a web version](/live.html). The jury's solution presentation and the award ceremony are also livestreamed.
 
 ### Semi-live and live contest for non-participants
 
-A semi-live contest will be available, hosted by one of the DOMjudge developers at [contest.domjudge.org](http://contest.domjudge.org/). Anyone can self-register already, but the contest will start 30 minutes after the live contest has started. For people attending locally, there will be the possibility to participate on the live DOMjudge server at the same time as the participants.
+A semi-live contest is available, hosted by one of the DOMjudge developers at [contest.domjudge.org](http://contest.domjudge.org/). Anyone can self-register, the contest will start 30 minutes after the live contest has started. For people attending locally, there is the possibility to participate on the live DOMjudge server at the same time as the participants.
 
 ### Previous contests
 
