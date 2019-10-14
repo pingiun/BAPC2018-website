@@ -16,6 +16,7 @@ menu: contest
         <tr><td>10:30 - 11:30</td><td>Test session</td><td>Huygens building</td></tr>
         <tr><td>11:30 - 12:45</td><td>Test session discussion, lunch and company fair</td><td>Restaurant Huygens building</td></tr>
         <tr><td>13:00 - 18:00</td><td>Contest</td><td>Huygens building</td></tr>
+        <tr><td><i>15:00 - 16:00</i></td><td><i>Coaches meeting</i></td><td><i>Huygens building</i></td></tr>
         <tr><td>18:00 - 19:30</td><td>Dinner and jury solutions</td><td>Restaurant Huygens building</td></tr>
         <tr><td>19:30 - 22:00</td><td>Award ceremony and drinks</td><td>Restaurant Huygens building</td></tr>
     </tbody>
