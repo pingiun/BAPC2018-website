@@ -10,9 +10,10 @@ menu: contest
 
 The changelog tracks changes from 12 September 2019 onwards.
 
-1. 12 September 2019: added information related to photos taken.
-2. 14 September 2019: added rule forbidding electronic devices in computer rooms.
-3. 20 September 2019: added information related to the award ceremony livestream.
+1. 12 September, 2019: added information related to photos taken.
+2. 14 September, 2019: added rule forbidding electronic devices in computer rooms.
+3. 20 September, 2019: added information related to the award ceremony livestream.
+4. 16 October, 2019: added Kotlin as supported language.
 
 #### General Rules
 
@@ -86,7 +87,7 @@ A business team:
 ##### System
 
 * Each team will use a single workstation, consisting of a table for the team members and one computer. The organisation is responsible for determining that teams have reasonably equivalent computing resources.
-* A solution for a problem has to be written in C99, C++ (version 14 or later will be available), Python (versions 2 and 3 will be available using pypy) or Java (version 11 or later), unless the problem statement explicitly states otherwise. Business teams can request other submission languages, on which the organisation will decide whether it will be made available for submission.
+* A solution for a problem has to be written in C99, C++ (version 14 or later will be available), Python (versions 2 and 3 will be available using pypy), Java (version 11 or later) or Kotlin (version 1.3.50), unless the problem statement explicitly states otherwise. Business teams can request other submission languages, on which the organisation will decide whether it will be made available for submission.
 * For every solution, only the standard library of the chosen language may be used, i.e. no other function calls can be made.
 * All prints made by the teams will be brought by a runner. Participants are not allowed near the printers.
 * A team is allowed to bring up to 25 A4-sized pages, printed one-sided or up to 12.5 A4-sized pages, printed two-sided, of documentation. Text and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 1/2 meter. Each team member is allowed one identical copy.
