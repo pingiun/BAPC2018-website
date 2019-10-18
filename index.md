@@ -7,10 +7,10 @@ menu: main
 ---
 
 <div class="countdown">
-    <div class="timer"><b class="countdownvalue" id="days"></b><span class="word">days</span></div>
-    <div class="timer"><b class="countdownvalue" id="hours"></b><span class="word">hours</span></div>
-    <div class="timer"><b class="countdownvalue" id="minutes"></b><span class="word">minutes</span></div>
-    <div class="timer"><b class="countdownvalue" id="seconds"></b><span class="word">seconds</span></div>
+    <div class="timer"><b class="countdownvalue" id="countdownA"></b><span class="word" id="countdownTextA"></span></div>
+    <div class="timer"><b class="countdownvalue" id="countdownB"></b><span class="word" id="countdownTextB"></span></div>
+    <div class="timer"><b class="countdownvalue" id="countdownC"></b><span class="word" id="countdownTextC"></span></div>
+    <div class="timer"><b class="countdownvalue" id="countdownD"></b><span class="word" id="countdownTextD"></span></div>
 </div>
 
 <script src="/assets/js/countdown.js"></script>
@@ -20,25 +20,26 @@ menu: main
         var count = new Countdown(target_date, new Date());
 
         count.countdown(function(time) {
-            if (time.days < 10) {
-                $("#days").html("0" + time.days);
+            if (time.days == 0) {
+                $("#countdownTextA").html("hours");
+                $("#countdownTextB").html("minutes");
+                $("#countdownTextC").html("seconds");
+                $("#countdownTextD").html("cs");
+
+                $("#countdownA").html(time.hours.toString().padStart(2, "0"));
+                $("#countdownB").html(time.minutes.toString().padStart(2, "0"));
+                $("#countdownC").html(time.seconds.toString().padStart(2, "0"));
+                $("#countdownD").html(time.centiseconds.toString().padStart(2, "0"));
             } else {
-                $("#days").html(time.days);
-            }
-            if (time.hours < 10) {
-                $("#hours").html("0" + time.hours);
-            } else {
-                $("#hours").html(time.hours);
-            }
-            if (time.minutes < 10) {
-                $("#minutes").html("0" + time.minutes);
-            } else {
-                $("#minutes").html(time.minutes);
-            }
-            if (time.seconds < 10) {
-                $("#seconds").html("0" + time.seconds);
-            } else {
-                $("#seconds").html(time.seconds);
+                $("#countdownTextA").html("days");
+                $("#countdownTextB").html("hours");
+                $("#countdownTextC").html("minutes");
+                $("#countdownTextD").html("seconds");
+
+                $("#countdownA").html(time.days.toString().padStart(2, "0"));
+                $("#countdownB").html(time.hours.toString().padStart(2, "0"));
+                $("#countdownC").html(time.minutes.toString().padStart(2, "0"));
+                $("#countdownD").html(time.seconds.toString().padStart(2, "0"));
             }
         });
     });
