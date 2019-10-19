@@ -10,14 +10,16 @@ menu: contest
 
 The changelog tracks changes from September 30, 2019 onwards.
 
-1. September 30, 2019: added note that NetBeans may not be available.
-2. October 7, 2019: NetBeans will not be available, updated versions of installed software and compilation options.
+1. 30 September, 2019: added note that NetBeans may not be available.
+2. 7 October, 2019: NetBeans will not be available, updated versions of installed software and compilation options.
+3. 16 October, 2019: Kotlin added also for student teams.
+4. 16 October, 2019: Added a note that Kotlin is only usable from IntelliJ.
 
 #### Overview
 
 The system is based on Ubuntu 18.04 LTS.
-It will be possible to submit solutions using C99, C++17, Java 11, Python 2.7, and Python 3.6.
-Kotlin will also be available for company teams.
+It will be possible to submit solutions using C99, C++17, Java 11, Python 2.7, Python 3.6 and Kotlin 1.3.
+It is only possible to use Kotlin with IntelliJ, `kotlinc` as stand-alone executable is *not* available on contestant systems.
 
 #### Documentation
 Documentation for C, C++, Java, Python 2, Python 3, and Kotlin will be available through [zeal](https://zealdocs.org/).
