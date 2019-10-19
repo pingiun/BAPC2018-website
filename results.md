@@ -6,6 +6,10 @@ order: 4
 menu: main
 ---
 
+#### Scrolling
+
+**Note**: the scoreboards are horizontally scrollable depending on your screen size.
+
 #### BAPC final results
 
 {% include final.html %}
