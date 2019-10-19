@@ -18,11 +18,13 @@ qualify themselves for a ticket to the International Collegiate Programming Cont
 The BAPC {{site.year}} took place on <b>{{site.day}}</b> at the Radboud University in Nijmegen, The Netherlands and was co-organised by <a href='https://www.desda.org/' target="_blank">Desda</a>
 and <a href='https://thalia.nu' target="_blank">Thalia</a>.
 
-### Results
+### Results, problems and media
 
 The final scoreboard is available [here](/results.html). The results of the semi-live contest are available [here](http://contest.domjudge.org/).
 
 The problem set, solutions, presentation and definitive results are available [here](/problems.html).
+
+Photos and videos taken at the event will be published soon.
 
 ### Previous contests
 
