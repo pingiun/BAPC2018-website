@@ -20,9 +20,9 @@ and <a href='https://thalia.nu' target="_blank">Thalia</a>.
 
 ### Results
 
-The scorebord and broadcast livestream are available [here](/live.html). The problem set, solutions, presentation and definitive results will be published soon.
+The final scoreboard is available [here](/results.html). The results of the semi-live contest are available [here](http://contest.domjudge.org/).
 
-The results of the semi-live contest are available [here](http://contest.domjudge.org/).
+The problem set, solutions, presentation and definitive results are available [here](/problems.html).
 
 ### Previous contests
 
