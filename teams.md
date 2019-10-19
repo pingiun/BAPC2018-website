@@ -7,9 +7,10 @@ menu: contest
 ---
 
 #### Company teams
-The following 13 company teams participate in the BAPC:
 
-* Achmea (two teams)
+The following 12 company teams have participated in the BAPC:
+
+* Achmea
 * ASML
 * BetterBe
 * Booking.com (two teams)
