@@ -13,6 +13,7 @@ menu: main
 - [Solutions PDF (web version)](https://github.com/pingiun/BAPC2019-website/releases/download/bapc2019/solutions-web.pdf)
 - [Solutions PDF (printable version)](https://github.com/pingiun/BAPC2019-website/releases/download/bapc2019/solutions.pdf)
 - [ZIP containing problem statements, test data and jury solutions in DOMjudge format](https://github.com/pingiun/BAPC2019-website/releases/download/bapc2019/complete.zip)
+- [ZIP containing problem statements and test data in DOMjudge format for the test session](https://github.com/pingiun/BAPC2019-website/releases/download/bapc2019/complete_test_session.zip)
 
 #### BAPC preliminaries
 
