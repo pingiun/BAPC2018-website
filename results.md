@@ -6,7 +6,9 @@ order: 4
 menu: main
 ---
 
-The scoreboards of the preliminaries are shown below as far as they have been made available to us. The scoreboard of the BAPC will be available here after the contest. The results from last year's contest are available <a target="_blank" href="https://{{ site.year | minus : 1 }}.bapc.eu/results.html">here</a>.
+#### BAPC final results
+
+{% include final.html %}
 
 #### Preliminaries (merged)
 
