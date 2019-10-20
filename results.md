@@ -10,9 +10,28 @@ menu: main
 
 **Note**: the scoreboards are horizontally scrollable depending on your screen size.
 
+#### Table of contents
+
+- [BAPC final results](#bapc-final-results)
+- [BAPC semi-live contest results](#bapc-semi-live-contest-results)
+- [Preliminaries (merged)](#preliminaries-merged)
+- [Preliminaries](#preliminaries)
+  - [Amsterdam (Vrije Universiteit Amsterdam)](#amsterdam-vrije-universiteit-amsterdam)
+  - [Amsterdam (University of Amsterdam)](#amsterdam-university-of-amsterdam)
+  - [Delft](#delft)
+  - [Eindhoven](#eindhoven)
+  - [Leiden](#leiden)
+  - [Nijmegen](#nijmegen)
+  - [Twente](#twente)
+  - [Utrecht](#utrecht)
+
 #### BAPC final results
 
 {% include final.html %}
+
+#### BAPC semi-live contest results
+
+{% include semi_live.html %}
 
 #### Preliminaries (merged)
 
