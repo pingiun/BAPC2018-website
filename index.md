@@ -20,7 +20,7 @@ and <a href='https://thalia.nu' target="_blank">Thalia</a>.
 
 ### Results, problems and media
 
-The final scoreboard is available [here](/results.html). The results of the semi-live contest are available [here](http://contest.domjudge.org/).
+The final scoreboard of both the BAPC and the semi-live contest are available [here](/results.html).
 
 The problem set, solutions, presentation and definitive results are available [here](/problems.html).
 
