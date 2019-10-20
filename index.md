@@ -24,7 +24,7 @@ The final scoreboard of both the BAPC and the semi-live contest are available [h
 
 The problem set, solutions, presentation and definitive results are available [here](/problems.html).
 
-Photos and videos taken at the event will be published soon.
+Photo's taken during the event are available [here](https://thalia.nu/members/photos/19-10-2019-bapc-2019/a3ce14a3b41bd36da2d81cc2e52ba77412a85f4b4d0a1cf8df907c48fad06df9/).
 
 ### Previous contests
 
