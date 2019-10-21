@@ -22,7 +22,7 @@ and <a href='https://thalia.nu' target="_blank">Thalia</a>.
 
 The final scoreboard of both the BAPC and the semi-live contest are available [here](/results.html).
 
-The problem set, solutions, presentation and definitive results are available [here](/problems.html).
+The problem set, solutions, solution presentation and more are available [here](/problems.html).
 
 Photo's taken during the event are available [here](https://thalia.nu/members/photos/19-10-2019-bapc-2019/a3ce14a3b41bd36da2d81cc2e52ba77412a85f4b4d0a1cf8df907c48fad06df9/).
 
